@@ -12,6 +12,9 @@
 		E78C664021C94E9C00CCEA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78C663E21C94E9C00CCEA95 /* Main.storyboard */; };
 		E78C664221C94E9D00CCEA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78C664121C94E9D00CCEA95 /* Assets.xcassets */; };
 		E78C664521C94E9D00CCEA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78C664321C94E9D00CCEA95 /* LaunchScreen.storyboard */; };
+		E78C664D21C9507900CCEA95 /* DialogPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78C664C21C9507900CCEA95 /* DialogPresentationController.swift */; };
+		E78C664F21C9552900CCEA95 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78C664E21C9552900CCEA95 /* DialogViewController.swift */; };
+		E78C665121C964B000CCEA95 /* DialogAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78C665021C964B000CCEA95 /* DialogAnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E78C664121C94E9D00CCEA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E78C664421C94E9D00CCEA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78C664621C94E9D00CCEA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78C664C21C9507900CCEA95 /* DialogPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogPresentationController.swift; sourceTree = "<group>"; };
+		E78C664E21C9552900CCEA95 /* DialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		E78C665021C964B000CCEA95 /* DialogAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				E78C663A21C94E9C00CCEA95 /* AppDelegate.swift */,
 				E78C663C21C94E9C00CCEA95 /* ViewController.swift */,
 				E78C663E21C94E9C00CCEA95 /* Main.storyboard */,
+				E78C664C21C9507900CCEA95 /* DialogPresentationController.swift */,
+				E78C664E21C9552900CCEA95 /* DialogViewController.swift */,
+				E78C665021C964B000CCEA95 /* DialogAnimationController.swift */,
 				E78C664121C94E9D00CCEA95 /* Assets.xcassets */,
 				E78C664321C94E9D00CCEA95 /* LaunchScreen.storyboard */,
 				E78C664621C94E9D00CCEA95 /* Info.plist */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78C664F21C9552900CCEA95 /* DialogViewController.swift in Sources */,
+				E78C664D21C9507900CCEA95 /* DialogPresentationController.swift in Sources */,
 				E78C663D21C94E9C00CCEA95 /* ViewController.swift in Sources */,
+				E78C665121C964B000CCEA95 /* DialogAnimationController.swift in Sources */,
 				E78C663B21C94E9C00CCEA95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

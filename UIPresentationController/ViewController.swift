@@ -9,12 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
     }
-
-
+    
+    @IBAction func showDialogButtonTapped(_ sender: UIButton) {
+        let viewController = DialogViewController()
+        present(viewController, animated: true, completion: nil)
+    }
 }
 
